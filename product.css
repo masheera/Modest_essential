@@ -1,0 +1,103 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#brand
+{
+    font-style: italic;
+    /* border: 2px solid red;  */
+    margin: 0;
+    text-align: center;
+}
+#abaya, #dress
+{
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 0 0 20px 0;
+    text-decoration: underline;
+}
+.product div
+{
+    display: inline-block;
+    padding: 20px;
+    padding-left: 28px;
+    /* padding-top: 20px; */
+    margin-bottom: 20px;
+    border-style:outset;
+}
+.product p
+{
+    text-align: center;
+}
+.product button:hover
+{
+    background-color: rgb(216, 161, 90);
+}
+.product div:hover
+{
+    background-color: antiquewhite;
+}   
+.product button
+{
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(134, 114, 114, 0.591);
+}
+footer div
+{
+    display: inline-block;
+    width: 300px;
+    /* border: 2px solid; */
+    margin: 10px 10px 20px 50px;
+}
+a 
+{
+    color: rgba(220, 218, 218, 0.708);
+    text-decoration: none;
+}
+li
+{
+    padding-bottom: 5px;
+}
+.form
+{
+    /* border: 2px solid; */
+    display: inline-block;
+    border-style: inset;
+    width: fit-content;
+    margin-left: 20px;
+    padding: 20px 100px 80px 20px;
+    border-radius: 15px;
+}
+tr td
+{
+    padding: 10px;
+}
+.contact
+{
+    display: inline-block;
+    padding: 10px 20px 20px 20px;
+    border-style: inset;
+    /* margin: 20px 20px; */
+    float: right;
+    width: 40%;
+    margin-right: 50px;
+    border-radius: 15px;
+    /* display: inline-block; */
+}
+
+#subbtn
+{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+#subbtn:hover
+{
+    background-color:antiquewhite;
+    color: black;
+}
